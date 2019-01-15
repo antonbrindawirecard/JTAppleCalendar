@@ -5,7 +5,7 @@
 //  Created by JayT on 2016-09-19.
 //
 //
-
+import UIKit
 
 protocol JTAppleCalendarDelegateProtocol: class {
     var itemSize: CGFloat? {get set}
@@ -14,7 +14,7 @@ protocol JTAppleCalendarDelegateProtocol: class {
     var monthInfo: [Month] {get set}
     var monthMap: [Int: Int] {get set}
     var totalDays: Int {get}
-    var lastIndexOffset: (IndexPath, UICollectionElementCategory)? {get set}
+    var lastIndexOffset: (IndexPath, UICollectionView.ElementCategory)? {get set}
     var allowsDateCellStretching: Bool {get set}
     
     func numberOfRows() -> Int

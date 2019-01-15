@@ -5,6 +5,7 @@
 //  Created by JayT on 2016-06-07.
 //
 //
+import UIKit
 
 /// Default delegate functions
 public extension JTAppleCalendarViewDelegate {

@@ -5,6 +5,7 @@
 //  Created by JayT on 2016-10-02.
 //
 //
+import UIKit
 
 internal protocol JTAppleReusableViewProtocol: class {
     associatedtype ViewType: UIView

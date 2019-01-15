@@ -5,7 +5,7 @@
 //  Created by JayT on 2016-08-22.
 //
 //
-
+import UIKit
 
 /// Describes a scroll destination
 public enum SegmentDestination {

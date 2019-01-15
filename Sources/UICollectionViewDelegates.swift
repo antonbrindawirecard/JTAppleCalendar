@@ -5,6 +5,7 @@
 //  Created by JayT on 2016-10-02.
 //
 //
+import UIKit
 
 extension JTAppleCalendarView: UICollectionViewDelegate, UICollectionViewDataSource {
     /// Asks your data source object to provide a

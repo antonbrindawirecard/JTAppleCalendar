@@ -5,12 +5,12 @@
 //  Created by JayT on 2016-10-02.
 //
 //
-
+import UIKit
 
 protocol JTAppleCalendarLayoutProtocol: class {
     var itemSize: CGSize {get set}
     var headerReferenceSize: CGSize {get set}
-    var scrollDirection: UICollectionViewScrollDirection {get set}
+    var scrollDirection: UICollectionView.ScrollDirection {get set}
     var cellCache: [Int: [UICollectionViewLayoutAttributes]] {get set}
     var headerCache: [Int: UICollectionViewLayoutAttributes] {get set}
     var sectionSize: [CGFloat] {get set}

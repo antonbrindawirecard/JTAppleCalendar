@@ -5,6 +5,7 @@
 //  Created by JayT on 2017-02-15.
 //
 //
+import UIKit
 
 class CustomCollectionView: UICollectionView {
     var completionHandler: (() -> Void)? = nil
